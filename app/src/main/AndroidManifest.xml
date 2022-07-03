@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.nyrat.tugas">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_main_2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_main_2_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Tugas1"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".activity.AboutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.Form5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.Form4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.Form3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.Form2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.Form1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.PermissionsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.listActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.InputActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.DashboardActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
