@@ -11,6 +11,31 @@ PBM_Tubes is a project for school. TUGAS BESAR "PEMROGRAMAN BERBASIS MOBILE" KEL
 
 > ![image](https://raw.githubusercontent.com/PurwaSabrangRamadhan/PBM_Tubes/main/git_preview.png)
 
+## To Do Lists, based on school theory.
+
+- Layout
+    - [x] ~~Linear Layout~~
+    - [x] ~~Relative Layout~~
+    - [x] ~~Coordinator Layout~~
+    - [x] ~~Constraint Layout~~
+- Activity
+    - [x] ~~Activity Layout~~
+    - [x] ~~Activity Click~~
+    - [x] ~~Activity Intent~~
+- Pallet Item
+    - [x] ~~Text Field~~
+    - [x] ~~Checkbox~~
+    - [x] ~~Radio Group~~
+    - [x] ~~Switch~~
+    - [x] ~~Image~~
+    - [x] ~~Button~~
+- Fragment
+    - [x] ~~Fragment Layout~~
+- Lifecycle
+    - [x] ~~Activity Lifecycle~~
+- Database
+    - [x] ~~Connection to Database~~
+
 ## Getting Started
 
 1. Clone this repository and then run or build with android studio.
