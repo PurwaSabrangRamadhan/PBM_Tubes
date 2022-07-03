@@ -13,7 +13,7 @@ PBM_Tubes is a project for school. TUGAS BESAR "PEMROGRAMAN BERBASIS MOBILE" KEL
 
 ## Getting Started
 
-1. Clone this repository and then run with android studio.
+1. Clone this repository and then run or build with android studio.
 
 ## External Library / Framework / Dependencies
 
